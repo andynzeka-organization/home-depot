@@ -50,7 +50,7 @@ jobs:
         TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
       run: | 
         pip install --upgrade twine 
-        twine upload --repository-url https://test.pypi.org/legacy/ dist/* --verbose
+        twine upload --repository-url https://upload.pypi.org/legacy/ dist/* --verbose
     - name: Cleanup
       if: always()
       run: |
