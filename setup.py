@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="python_calculator",  # This is the name of the package
-    version="6.0",
+    version="6.26.5",
     packages=find_packages(),
     install_requires=[],  # Any dependencies you want to include
     test_suite='tests',
